@@ -1,0 +1,21 @@
+{
+    "name": "pashkevichsd/telegram-bot-client",
+    "description": "Telegram bot client",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Pashkevichsd\\TelegramBotClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sergei",
+            "email": "pashkevich.s.d@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-client": "^6.0",
+        "symfony/http-foundation": "^6.0",
+        "symfony/dependency-injection": "^6.0"
+    }
+}
